@@ -3,7 +3,7 @@ import { LogIn } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 
 export function LoginForm() {
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState('111111111111@dddd.dd');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
